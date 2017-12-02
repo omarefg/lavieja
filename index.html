@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="lavieja.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  </head>
+  <body>
+    <div class="jugadores"><h2 class="p1 active" onclick="players('p1','p2'), borraTablero(), unPlayer()" id="p1">Un jugador</h2><h2 onclick="players('p2','p1'), borraTablero(), dosPlayers()" class="p2" id="p2">Dos jugadores</h2></div>
+    <div class="main">
+      <div class="domain1">
+        <div class="subdomain1" id="subdomain1" onclick="jugada(1)"><h1 id="1"></h1></div>
+        <div class="subdomain2" id="subdomain2" onclick="jugada(2)"><h1 id="2"></h1></div>
+        <div class="subdomain3" id="subdomain3" onclick="jugada(3)"><h1 id="3"></h1></div>
+      </div>
+      <div class="domain2">
+        <div class="subdomain1" id="subdomain4" onclick="jugada(4)"><h1 id="4"></h1></div>
+        <div class="subdomain2" id="subdomain5" onclick="jugada(5)"><h1 id="5"></h1></div>
+        <div class="subdomain3" id="subdomain6" onclick="jugada(6)"><h1 id="6"></h1></div>
+      </div>
+      <div class="domain3">
+        <div class="subdomain1" id="subdomain7" onclick="jugada(7)"><h1 id="7"></h1></div>
+        <div class="subdomain2" id="subdomain8" onclick="jugada(8)"><h1 id="8"></h1></div>
+        <div class="subdomain3" id="subdomain9" onclick="jugada(9)"><h1 id="9"></h1></div>
+      </div>
+    </div>
+    <div class="credits"><h3>Powered by <a href="https://twitter.com/omarefg" target="_blank">Omar Flores</a></h3></div>
+    <script type="text/javascript" src="lavieja.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

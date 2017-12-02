@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+h1{
+  margin:0;
+  position:relative;
+  font-size:120px;
+}
+h2, h3{
+  width:auto;
+  margin: 0 auto;
+  font-family: 'Indie Flower', cursive;
+  padding: 20px;
+  border-radius: 50%;
+}
+h3{
+  width:auto;
+  margin: 0 auto;
+  font-family: 'Indie Flower', cursive;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+.jugadores, .credits{
+  display:flex;
+  flex-direction:row;
+  width:auto;
+  margin: 5px auto 0 auto;
+}
+.p2{
+  margin-left:25px;
+  cursor:pointer;
+}
+.p1{
+  margin-right:25px;
+  cursor:pointer;
+}
+.main{
+  width:auto;
+  margin: 50px auto 0 auto;
+  height: 450px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+}
+.subdomain1,.subdomain2,.subdomain3{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  text-align:center;
+  font-family: 'Indie Flower', cursive;
+}
+.domain1,.domain2,.domain3{
+  display: flex;
+  width: 450px;
+  height: 140px;
+  cursor: pointer;
+}
+.subdomain1{
+  margin-right:5px;
+ }
+.subdomain3{
+  margin-left:5px;
+}
+.domain1{
+  margin-bottom:15px;
+}
+.domain2{
+  margin-bottom:15px;
+}
+.active{
+  background-color:black;
+  color:white;
+}
+.swal-modal{
+  font-family: 'Indie Flower', cursive;
+}
+.swal-text{
+  font-size: 40px;
+}
